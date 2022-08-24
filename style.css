@@ -292,6 +292,51 @@ img[src="./images/Rectangle_12.png"]{
   color: #E9EDFF;
 }
 
+@media only screen and (max-width: 560px) {
+   .nav-item{
+    display: hidden;
+   }
+  
+   .header-text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   } 
 
+  .companies{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cards{
+    display: flex;
+    flex-direction: column;
+  }
+
+ .cardsection{
+  display: flex;
+  flex-direction: column;
+ }
+
+ .blog-cards,.faq-section,.download-section,.footer-section{
+  display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+ }
+
+  .blog-cards{
+  display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+ }
+
+ .blog-card{
+  display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;;
+ }
+
+}
 
 
